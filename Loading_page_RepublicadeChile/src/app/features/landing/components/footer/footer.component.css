@@ -1,0 +1,6 @@
+.footer { background: #0a1929; color: #b0bec5; padding: 3rem 2rem 1rem; }
+.footer__container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+.footer__col h4 { color: #fff; margin-bottom: 1rem; }
+.footer__col p, .footer__col a { display: block; color: #b0bec5; text-decoration: none; margin: 0.3rem 0; }
+.footer__col a:hover { color: #ffeb3b; }
+.footer__bottom { text-align: center; border-top: 1px solid #1e3a5f; margin-top: 2rem; padding-top: 1rem; font-size: 0.9rem; }

@@ -1,1 +1,14 @@
-<p>caracteristicas works!</p>
+<section id="caracteristicas" class="caracteristicas">
+  <div class="caracteristicas__container">
+    <h2 class="section-title">Características del Proyecto</h2>
+    <div class="caracteristicas__list">
+      <div class="caracteristica-item" *ngFor="let c of caracteristicas; let i = index">
+        <span class="caracteristica-item__num">{{ (i + 1).toString().padStart(2, '0') }}</span>
+        <div>
+          <h3>{{ c.titulo }}</h3>
+          <p>{{ c.descripcion }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

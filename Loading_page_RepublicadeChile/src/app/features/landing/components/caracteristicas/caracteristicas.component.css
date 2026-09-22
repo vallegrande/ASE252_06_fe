@@ -1,0 +1,10 @@
+.caracteristicas { padding: 4rem 2rem; background: #e3f2fd; }
+.caracteristicas__container { max-width: 1000px; margin: 0 auto; }
+.caracteristicas__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.caracteristica-item {
+  display: flex; gap: 1rem; background: #fff; padding: 1.5rem;
+  border-radius: 10px; border-left: 4px solid #1976d2;
+}
+.caracteristica-item__num { font-size: 1.5rem; font-weight: 800; color: #1976d2; }
+.caracteristica-item h3 { color: #0d47a1; margin: 0 0 0.5rem; font-size: 1.05rem; }
+.caracteristica-item p { color: #666; margin: 0; line-height: 1.6; }
