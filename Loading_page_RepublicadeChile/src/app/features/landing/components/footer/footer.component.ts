@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   year = new Date().getFullYear();
+  email = 'contacto@republicadechile.edu.pe';
+  telefono = '(01) 234-5678';
+  institucion = 'I.E. N.° 20190 "República de Chile"';
+  ubicacion = 'San Vicente de Cañete — Portal Académico Web';
 }
