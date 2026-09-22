@@ -1,0 +1,5 @@
+.nosotros { padding: 4rem 2rem; background: #fff; }
+.nosotros__container { max-width: 900px; margin: 0 auto; }
+.nosotros__problem { color: #c62828; margin-top: 1.5rem; }
+.nosotros__solution { color: #2e7d32; margin-top: 1.5rem; }
+.nosotros p { color: #555; line-height: 1.8; }
